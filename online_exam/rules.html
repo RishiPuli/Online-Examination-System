@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Rules</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            text-align: center;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            width: 80%;
+            max-width: 600px;
+        }
+        h1 {
+            font-size: 2em;
+            margin-bottom: 15px;
+            color: #ff6f61;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        }
+        ul {
+            list-style-type: none; /* Remove default bullet points */
+            padding: 0;
+            margin: 0;
+            font-size: 1.1em;
+            line-height: 1.5;
+            color: #333;
+        }
+        li {
+            background-color: #f8f8f8;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 10px;
+            margin: 8px 0;
+            transition: transform 0.2s;
+        }
+        li:hover {
+            transform: scale(1.02);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        button {
+            background-color: #4CAF50; /* Green */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 1em;
+            margin-top: 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #45a049; /* Darker green */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Exam Rules</h1>
+        <ul>
+            <li>You have 30 minutes to complete the exam.</li>
+            <li>There are 10 multiple choice questions.</li>
+            <li>Each question has 4 options.</li>
+            <li>Please ensure to submit the exam after completion.</li>
+            <li>No electronic devices are allowed during the exam.</li>
+            <li>Please read each question carefully before selecting an answer.</li>
+            <li>If you encounter any issues, raise your hand for assistance.</li>
+            <li>All questions carry equal marks.</li>
+            <li>Make sure to check your answers before submitting.</li>
+            <li>Good luck and do your best!</li>
+        </ul>
+        <button onclick="location.href='exam.php'">Start Exam</button>
+    </div>
+</body>
+</html>
